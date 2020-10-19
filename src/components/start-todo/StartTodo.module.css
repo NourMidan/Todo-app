@@ -1,0 +1,64 @@
+.container {
+  background-color: rgb(151, 211, 219);
+  min-height: 25%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+.tasks {
+  color: rgb(9, 67, 143);
+  border-bottom: 1px solid rgb(0, 0, 251);
+}
+
+.detail {
+  font-size: 1.2rem;
+  color: rgb(7, 42, 63);
+  color: rgb(69, 23, 129);
+}
+.title {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5rem;
+  margin: 0;
+  color: rgb(116, 16, 246);
+}
+
+.card {
+  border-bottom: 2px outset black;
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+  margin-bottom: 10px;
+}
+.add {
+  width: 100%;
+  background-color: rgb(57, 97, 149);
+  margin: 0;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 0 0 10px 10px;
+  cursor: pointer;
+}
+.btns button {
+  border-radius: 10px;
+  background-color: rgb(57, 97, 149); /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

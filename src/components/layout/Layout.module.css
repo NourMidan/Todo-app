@@ -1,0 +1,9 @@
+.Layout {
+  text-align: center;
+  background-color: rgb(151, 211, 219);
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: rgb(9, 67, 143);
+}
